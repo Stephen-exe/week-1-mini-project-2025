@@ -1,9 +1,14 @@
 header {
+  position: fixed;
   height: 50px;
   width: 100%;
   background-color: #25624c;
   border-bottom: 10px solid #e4c2b2;
   color: white;
+}
+
+section {
+  padding: 60px 0;
 }
 
 h1 {
@@ -35,7 +40,15 @@ header ul li {
   display: inline;
 }
 
+#comingsoon {
+  position: relative;
+}
+
 #contact {
   background-color:
     #e8cebf;
+}
+
+.text-right {
+  text-align: right;
 }
