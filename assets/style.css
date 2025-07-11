@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   position: fixed;
   height: 50px;
@@ -7,25 +12,40 @@ header {
   color: white;
 }
 
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #FDF8F5;
+  color: #4F4846;
+}
+
 section {
   padding: 60px 0;
 }
 
-h1 {
-  text-align: center;
-  color: rgb(17, 80, 49);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
+h1,
 h2 {
+  margin: 20px;
   text-align: center;
-  color: rgb(17, 80, 49);
+  color: #25624c;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
 }
 
 footer {
@@ -36,8 +56,17 @@ footer {
   color: white;
 }
 
-header ul li {
-  display: inline;
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #cca48d;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
 }
 
 #comingsoon {
@@ -47,6 +76,10 @@ header ul li {
 #contact {
   background-color:
     #e8cebf;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
